@@ -16,7 +16,7 @@ receiver_core=6
 
 # Physical interface name, eg.'eth0', on openshift nodes over which producer and consumer are connected.
 # Assumption is being made that same interface names are same across nodes
-iface_name=p5p1
+iface_name=em1
 
 # For a quick test(1000 messages and shorter time durations), set this to 'True'. 
 enable_quick_test_mode=False
