@@ -16,13 +16,13 @@ receiver_core=6
 
 # Physical interface name, eg.'eth0', on openshift nodes over which producer and consumer are connected.
 # Assumption is being made that same interface names are same across nodes
-iface_name=em1
+iface_name=p5p1
 
 # For a quick test(1000 messages and shorter time durations), set this to 'True'. 
 enable_quick_test_mode=False
 
 # set this to True for running STAC tests with onload. This will take care of configuration inside pods only.
 # As a prerequisite, admin MUST install onload on the nodes.
-enable_OpenOnloader=True
+enable_OpenOnloader=False
 
 Onload_tar_url=http://www.openonload.org/download/openonload-201606-u1.3.tgz
